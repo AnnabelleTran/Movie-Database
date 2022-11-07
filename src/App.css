@@ -1,0 +1,55 @@
+body{
+  background-color:darkslategray;
+}
+.box{
+  text-align: center;
+  margin: 2vw 10vw;
+  background-color: white;
+  padding: 1vw;
+  border-radius: 1vw;
+  color: darkslategray;
+  font-family: sans-serif ;
+  box-shadow: black .25vw .25vw;
+}
+
+.submitbutton{
+  margin-left: .25vw;
+}
+.App{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2vw;
+  column-gap: 3vw;
+}
+
+.movieObj{
+  background-color: white;
+  text-align: center;
+  margin: 1vw 0vw;
+  border-top-left-radius: none;
+  border-top-right-radius: none;
+  border-bottom-left-radius: .5vw;
+  border-bottom-right-radius: .5vw;
+  box-shadow: black .25vw .25vw;
+}
+
+.title{
+  text-align: center;
+  color: white;
+  font-size: 2.5vw;
+}
+
+.inputform{
+  width: 50vw;
+}
+
+.movieinfo{
+  text-align: center;
+  width: 15vw;
+}
+
+.moviePoster{
+  width: 15vw;
+}
